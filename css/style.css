@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+.logo {
+    width: 100px;   
+}
+
+nav{
+    font-family: 'Audiowide', cursive;
+    font-size: 18px;
+    background-color: rgb(180, 178, 178) !important;
+}
+  
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    letter-spacing: 1.2px;
+}
+
+#home, #middle, #contato {
+    padding: 40px 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+    margin: 15px;
+}
+
+img {
+    margin: 15px 0;
+    transition: .3s ease-in;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+.redes-sociais {
+    width: 50px;
+    margin: 5px 25px;
+    cursor: pointer;
+}
+
+.redes-sociais:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.burger:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgb(180, 178, 178);
+    padding: 10px 0;
+}
+
+footer p {
+    font-family: 'Audiowide', cursive;
+    color: #000;
+}
