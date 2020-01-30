@@ -9,13 +9,15 @@ body{
 }
 
 .logo {
-    width: 100px;   
+    width: 100px;  
+    margin: 0; 
 }
 
 nav{
     font-family: 'Audiowide', cursive;
     font-size: 18px;
     background-color: rgb(180, 178, 178) !important;
+    padding: 0 !important;
 }
   
 p {
@@ -28,11 +30,15 @@ p {
     padding: 40px 0;
 }
 
+h1{
+    padding-top: 90px;;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Audiowide', cursive;
     text-transform: uppercase;
     color: rgb(56, 56, 56);
-    margin: 15px;
+    margin: 15px 0;
 }
 
 img {
